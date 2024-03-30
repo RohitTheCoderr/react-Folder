@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+// import Mydata from "./components/hooks/usestate";
+// import Myform from "./components/hooks/useref";
+import LoginData from "./components/loginCom/login";
+// import Myform from "./components/useref";
+// import A from "./components/hooks/context";
+// import Settest from "./components/hooks/usecontext";
+// import DataofBook from "./components/hooks/useconOfBooks";
+// import SignUpData from "./components/loginCom/signUp";
+// import App123 from "./components/Mymap";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <App123 /> */}
+    {/* <Mydata1 val={3000}/> */}
+    {/* <A /> */}
+   {/* <Settest /> */}
+   {/* <DataofBook/> */}
+   {/* <SignUpData/> */}
+     {/* <Mydata/>
+     <Myform/> */}
+     <LoginData/>
+    </>
+    
   );
 }
 
 export default App;
+

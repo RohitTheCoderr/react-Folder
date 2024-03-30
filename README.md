@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## hook
+ hooks allow function component to hack access the  state and other react feature because of these class components are no longer needed 
+ 1. hooks only define function components 
+ 2. hooks only can we called at the top level of the component
+ 3. hooks can not be conditional 
+
+ ## there are multiple hooks in react.js
+ 1. useState
+ 2. useEffect
+  there are three depedency in useEffect 
+
